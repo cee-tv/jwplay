@@ -443,7 +443,7 @@ border-radius: 4px !important;
     .custom-button {
       background-color: #0074d9;
       color: #fff;
-      padding: 30px 120px;
+      padding: 10px 50px;
       border: none;
       cursor: pointer;
       margin: 5px;
@@ -464,6 +464,17 @@ border-radius: 4px !important;
         padding: 20px; /* Padding around the buttons */
         display: inline-block;
     }
+   .button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    max-width: 400px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    max-height: 300px;
+    overflow-y: auto;
+   }
     .header {
         text-align: center;
         background-color: #333;
