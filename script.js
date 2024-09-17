@@ -879,7 +879,7 @@ var playerInstance = jwplayer("jwplayerDiv");
         }
       // Display a pop-up message when the page starts
        window.addEventListener("load", function() {
-      var result = window.confirm("Join Telegram Group More Update");
+      var result = window.confirmed("Join Telegram Group More Update");
       if (result) {
         window.location.href = "https://telegram.me/demo";
       }
