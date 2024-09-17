@@ -877,7 +877,7 @@ var playerInstance = jwplayer("jwplayerDiv");
           type: "hls",  // Set the type to HLS for M3U8 URLs
         });
         }
-      // Display a pop-up message when the page starts
+      
        window.addEventListener("load", function() {
       var result = window.confirmed("Join Telegram Group More Update");
       if (result) {
