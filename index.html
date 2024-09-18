@@ -101,9 +101,9 @@
 </html>
 </html>
  <style>
-      html {
+    html {
             font-family: Poppins;
-            background-color: #2f3543;
+            background:#808991;
             margin: 0;
             padding: 0
         }
@@ -366,6 +366,117 @@
     }
 
     .loading-text span:nth-child(3) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.4s infinite linear alternate;
+    }
+
+    .loading-text span:nth-child(4) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.6s infinite linear alternate;
+    }
+
+    .loading-text span:nth-child(5) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.8s infinite linear alternate;
+    }
+
+    .loading-text span:nth-child(6) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1s infinite linear alternate;
+    }
+
+    .loading-text span:nth-child(7) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1.2s infinite linear alternate;
+    }
+
+    .loading-text span:nth-child(8) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1.4s infinite linear alternate;
+    }
+
+    @keyframes blur-text {
+        0% {
+            filter: blur(0px);
+        }
+
+        100% {
+            filter: blur(4px);
+        }
+    }
+    #videoContainer {
+        position:absolute;
+        width:100%!important;
+        height:100%!important
+    }
+
+.scrollbar-track-y {
+background: #131720 !important;
+top: 10px !important;
+bottom: 10px !important;
+height: auto !important;
+width: 4px !important;
+border-radius: 4px !important;
+right: 10px !important;
+overflow: hidden;
+}
+.scrollbar-thumb-y {
+background: #2f80ed !important;
+width: 4px !important;
+border-radius: 4px !important;
+}
+.scrollbar-track-x {
+background: #131720 !important;
+left: 10px !important;
+right: 10px !important;
+height: 4px !important;
+width: auto !important;
+border-radius: 4px !important;
+bottom: 10px !important;
+overflow: hidden;
+}
+.scrollbar-thumb-x {
+background: #2f80ed !important;
+height: 4px !important;
+border-radius: 4px !important;
+}
+    .custom-button {
+      background-color: #1b1d1f;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    .custom-button:hover {
+      background-color: #5b6369;
+    }
+
+    .button-container {
+        margin: 10px; /* Adjust the margin as needed */
+        text-align: center; /* Center align the button within the div */
+    }
+    .button-container {
+        text-align: center;
+        background-color: #808991; /* Background color for the box */
+        padding: 20px; /* Padding around the buttons */
+        display: grid;
+    }
+    .header {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        font-size: 24px;
+    } 
+   .header::first-letter {
+       font-size: 36px; /* Increase the font size of the first letter */
+       font-weight: bold; /* Make it bold */
+       color: #ff5733; 
+   }
+ </style>
         filter: blur(0px);
         animation: blur-text 1.5s 0.4s infinite linear alternate;
     }
