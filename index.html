@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LIVE TV</title>
+<title>PLAYER</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="MR.NITROX">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
@@ -19,7 +19,7 @@
 <body>
 
   <div class="header">
-      IPTV WEB
+      CRICKET WEB TV
   </div>
 <script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
 
@@ -30,8 +30,8 @@
     <script src="script.js"></script>
 
 <!-- Add buttons or elements to trigger the switches -->
-  <div class="custom-button">
-  <button class="custom-button" onclick="switchToDRM1()">TV 5</button>
+  <div class="button-container">
+        <button class="custom-button" onclick="switchToDRM1()">TV 5</button>
   <button class="custom-button" onclick="switchToDRM2()">A2Z</button>
   <button class="custom-button" onclick="switchToDRM3()">ONE PH</button>
   <button class="custom-button" onclick="switchToDRM4()">ONE NEWS</button>
@@ -89,8 +89,7 @@
   <button class="custom-button" onclick="switchToDRM56()">Stream</button>
   <button class="custom-button" onclick="switchToOtherStream()">Stream 3 (astro cricket)</button>
   <button class="custom-button" onclick="switchToOtherStream1()">Stream 4 (Fancode)</button>
-  
-
+  </div>
   
   <div style="background-color: #0074d9; text-align: center; padding: 10px;">
     <a href="https://telegram.me/+J00m9kwSn6g0ZTJl" target="_blank">
@@ -101,9 +100,9 @@
 </html>
 </html>
  <style>
-    html {
+      html {
             font-family: Poppins;
-            background:#808991;
+            background:#FF99CC;
             margin: 0;
             padding: 0
         }
@@ -441,117 +440,6 @@ height: 4px !important;
 border-radius: 4px !important;
 }
     .custom-button {
-      background-color: #1b1d1f;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      margin: 5px;
-      border-radius: 5px;
-    }
-
-    .custom-button:hover {
-      background-color: #5b6369;
-    }
-
-    .button-container {
-        margin: 10px; /* Adjust the margin as needed */
-        text-align: center; /* Center align the button within the div */
-    }
-    .button-container {
-        text-align: center;
-        background-color: #808991; /* Background color for the box */
-        padding: 20px; /* Padding around the buttons */
-        display: grid;
-    }
-    .header {
-        text-align: center;
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        font-size: 24px;
-    } 
-   .header::first-letter {
-       font-size: 36px; /* Increase the font size of the first letter */
-       font-weight: bold; /* Make it bold */
-       color: #ff5733; 
-   }
- </style>
-        filter: blur(0px);
-        animation: blur-text 1.5s 0.4s infinite linear alternate;
-    }
-
-    .loading-text span:nth-child(4) {
-        filter: blur(0px);
-        animation: blur-text 1.5s 0.6s infinite linear alternate;
-    }
-
-    .loading-text span:nth-child(5) {
-        filter: blur(0px);
-        animation: blur-text 1.5s 0.8s infinite linear alternate;
-    }
-
-    .loading-text span:nth-child(6) {
-        filter: blur(0px);
-        animation: blur-text 1.5s 1s infinite linear alternate;
-    }
-
-    .loading-text span:nth-child(7) {
-        filter: blur(0px);
-        animation: blur-text 1.5s 1.2s infinite linear alternate;
-    }
-
-    .loading-text span:nth-child(8) {
-        filter: blur(0px);
-        animation: blur-text 1.5s 1.4s infinite linear alternate;
-    }
-
-    @keyframes blur-text {
-        0% {
-            filter: blur(0px);
-        }
-
-        100% {
-            filter: blur(4px);
-        }
-    }
-    #videoContainer {
-        position:absolute;
-        width:100%!important;
-        height:100%!important
-    }
-
-.scrollbar-track-y {
-background: #131720 !important;
-top: 10px !important;
-bottom: 10px !important;
-height: auto !important;
-width: 4px !important;
-border-radius: 4px !important;
-right: 10px !important;
-overflow: hidden;
-}
-.scrollbar-thumb-y {
-background: #2f80ed !important;
-width: 4px !important;
-border-radius: 4px !important;
-}
-.scrollbar-track-x {
-background: #131720 !important;
-left: 10px !important;
-right: 10px !important;
-height: 4px !important;
-width: auto !important;
-border-radius: 4px !important;
-bottom: 10px !important;
-overflow: hidden;
-}
-.scrollbar-thumb-x {
-background: #2f80ed !important;
-height: 4px !important;
-border-radius: 4px !important;
-}
-    .custom-button {
       background-color: #0074d9;
       color: #fff;
       padding: 10px 20px;
@@ -562,11 +450,11 @@ border-radius: 4px !important;
     }
 
     .custom-button:hover {
-     background-color: #2f3543;
+      background-color: #0056b3;
     }
 
     .button-container {
-        margin: ; /* Adjust the margin as needed */
+        margin: 10px; /* Adjust the margin as needed */
         text-align: center; /* Center align the button within the div */
     }
     .button-container {
@@ -587,46 +475,4 @@ border-radius: 4px !important;
        font-weight: bold; /* Make it bold */
        color: #ff5733; 
    }
-       .custom-button {
-background-color: #2f3543;
-    display: grid;
-
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-
-    gap: 10px;
-
-    max-width: 400px;
-
-    padding: 10px;
-
-    list-style-type: none;
-
-    text-align: center;
-
-    max-height: 800px;
-
-    overflow-y: auto;
-
-}
-
-.custom-button {
-
-    padding: 10px;
-
-    background-color: #2f3543;
-
-    color: #fff;
-
-    border-radius: 8px;
-
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-    cursor: pointer;
-
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
- .custom-button :hover {
-    background-color: #434955;
- }
-}
  </style>
