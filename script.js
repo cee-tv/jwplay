@@ -1120,7 +1120,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to another stream with M3U8 URL and no DRM
   function switchToOtherStream() {
     playerInstance.setup({
-      file: "https://isp.sananda.online/Astro/video.m3u8",
+      file: "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
       type: "hls",  // Set the type to HLS for M3U8 URLs
     });
   }
