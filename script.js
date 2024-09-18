@@ -851,8 +851,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 61
+  function switchToDRM61() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd",
       type: "dash",
@@ -865,8 +865,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 62
+  function switchToDRM62() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd",
       type: "dash",
@@ -879,8 +879,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 63
+  function switchToDRM63() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_discovery.mpd",
       type: "dash",
@@ -893,8 +893,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 64
+  function switchToDRM64() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd",
       type: "dash",
@@ -907,8 +907,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 65
+  function switchToDRM65() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd",
       type: "dash",
@@ -921,8 +921,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 66
+  function switchToDRM66() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd",
       type: "dash",
@@ -935,8 +935,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 67
+  function switchToDRM67() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd",
       type: "dash",
@@ -949,8 +949,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 68
+  function switchToDRM68() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_crime_invest.mpd",
       type: "dash",
@@ -963,8 +963,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 69
+  function switchToDRM69() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tech_storm.mpd",
       type: "dash",
@@ -977,8 +977,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 70
+  function switchToDRM70() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd",
       type: "dash",
@@ -991,8 +991,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 71
+  function switchToDRM71() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd",
       type: "dash",
@@ -1005,8 +1005,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 72
+  function switchToDRM72() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd",
       type: "dash",
@@ -1019,8 +1019,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 73
+  function switchToDRM73() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd",
       type: "dash",
@@ -1033,8 +1033,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 74
+  function switchToDRM74() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd",
       type: "dash",
@@ -1047,8 +1047,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 75
+  function switchToDRM75() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_aljazeera.mpd",
       type: "dash",
@@ -1061,8 +1061,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 76
+  function switchToDRM76() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cctv4.mpd",
       type: "dash",
@@ -1075,8 +1075,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 77
+  function switchToDRM77() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_lifetime.mpd",
       type: "dash",
@@ -1089,8 +1089,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 78
+  function switchToDRM78() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd",
       type: "dash",
@@ -1103,8 +1103,8 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-// Function to switch to DRM 60
-  function switchToDRM60() {
+// Function to switch to DRM 79
+  function switchToDRM79() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd",
       type: "dash",
