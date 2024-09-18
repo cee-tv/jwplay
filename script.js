@@ -1064,17 +1064,58 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 60
   function switchToDRM60() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cctv4.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "0f855236412b11edb8780242ac120002",
-          "key": "4c2913b11271dd502c8239bbe205482c"
+          "keyId": "0f8541ec412b11edb8780242ac120002",
+          "key": "6cf16c272b7357c48cd47061799a4963"
         }
       }
     });
   }
 
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_lifetime.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "cf861d26e7834166807c324d57df5119",
+          "key": "64a81e30f6e5b7547e3516bbf8c647d0"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "f0e3ab943318471abc8b47027f384f5a",
+          "key": "13802a79b19cc3485d2257165a7ef62a"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "13815d0fa026441ea7662b0c9de00bcf",
+          "key": "2d99a55743677c3879a068dd9c92f824"
+        }
+      }
+    });
+  }
 
 // Function to switch to another stream with M3U8 URL and no DRM
   function switchToOtherStream() {
