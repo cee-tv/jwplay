@@ -850,6 +850,232 @@ var playerInstance = jwplayer("jwplayerDiv");
       }
     });
   }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "34ce95b60c424e169619816c5181aded",
+          "key": "0e2a2117d705613542618f58bf26fc8e"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "e4ee0cf8ca9746f99af402ca6eed8dc7",
+          "key": "be2a096403346bc1d0bb0f812822bb62"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_discovery.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "d9ac48f5131641a789328257e778ad3a",
+          "key": "b6e67c37239901980c6e37e0607ceee6"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "436b69f987924fcbbc06d40a69c2799a",
+          "key": "c63d5b0d7e52335b61aeba4f6537d54d"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "f3047fc13d454dacb6db4207ee79d3d3",
+          "key": "bdbd38748f51fc26932e96c9a2020839"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "1619db30b9ed42019abb760a0a3b5e7f",
+          "key": "5921e47fb290ae263291b851c0b4b6e4"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "f6804251e90b4966889b7df94fdc621e",
+          "key": "55c3c014f2bd12d6bd62349658f24566"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_crime_invest.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "21e2843b561c4248b8ea487986a16d33",
+          "key": "db6bb638ccdfc1ad1a3e98d728486801"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tech_storm.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "5675d85ce6754ba6aa8f6acc4660f76f",
+          "key": "140bfb365cf143c349f68699238a610c"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "971ebbe2d887476398e97c37e0c5c591",
+          "key": "472aa631b1e671070a4bf198f43da0c7"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "ef7d9dcfb99b406cb79fb9f675cba426",
+          "key": "b24094f6ca136af25600e44df5987af4"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "0f853990412b11edb8780242ac120002",
+          "key": "89d57dfef804fd9b5c788a54903d8256"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "a7724b7ca2604c33bb2e963a0319968a",
+          "key": "6f97e3e2eb2bade626e0281ec01d3675"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "b7299ea0af8945479cd2f287ee7d530e",
+          "key": "b8ae7679cf18e7261303313b18ba7a14"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_aljazeera.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "0f85362a412b11edb8780242ac120002",
+          "key": "d643dfbbfca6dc64e7f58fd67ea4b7d5"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 60
+  function switchToDRM60() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "0f855236412b11edb8780242ac120002",
+          "key": "4c2913b11271dd502c8239bbe205482c"
+        }
+      }
+    });
+  }
+
+
 // Function to switch to another stream with M3U8 URL and no DRM
   function switchToOtherStream() {
     playerInstance.setup({
